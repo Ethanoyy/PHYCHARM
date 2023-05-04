@@ -17,7 +17,8 @@ def CalcuBMI(x, y):
         print("OVERWEIGHT")
         return 1
 
-CalcuBMI(1.8, 65)
+value=CalcuBMI(1.8, 65)
+print(value)
 
 
 
