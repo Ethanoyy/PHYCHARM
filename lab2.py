@@ -1,8 +1,13 @@
 
-def CalcuBMI(x, y):
+def CalcuBMI():
+    x = input()
+    height = float(x)
+    y = input()
+    weight = float(y)
     print("Height = " + str(x))
     print("Weight = " + str(y))
-    BMI = (y / (x * x))
+    BMI = (weight / (height * height))
+
     print("BMI = " + str(BMI))
 
     if (BMI < 18.5):
@@ -17,7 +22,7 @@ def CalcuBMI(x, y):
         print("OVERWEIGHT")
         return 1
 
-value=CalcuBMI(1.8, 65)
+value=CalcuBMI()
 print(value)
 
 
